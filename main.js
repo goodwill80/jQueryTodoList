@@ -15,6 +15,7 @@ $('ul').on ("click", "span", function(event){
   event.stopPropagation();
 });
 
+//entering and appending new todo
 $("input[type='text']").keypress( function(event){
   if(event.which === 13) {
     //grab todo text from input
@@ -24,7 +25,9 @@ $("input[type='text']").keypress( function(event){
   }
 });
 
-
+$(".fa-android").click(function(){
+  $("input[type='text']").fadeToggle();
+})
 
 
 
