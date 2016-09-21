@@ -13,16 +13,16 @@ $('ul').on ("click", "span", function(event){
   });
   //stop effect to parents
   event.stopPropagation();
-})
+});
 
 $("input[type='text']").keypress( function(event){
   if(event.which === 13) {
     //grab todo text from input
     var todoText = $(this).val();
     $(this).val("");
-    $("ul").append("<li><span>X </span>" + todoText + "</li>")
+    $("ul").append("<li><span><i class='fa fa-trash'></i></span> " + todoText + "</li>")
   }
-})
+});
 
 
 
