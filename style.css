@@ -1,5 +1,5 @@
 h1 {
-  background: #2980b9;
+  background: #F06868;
   color: white;
   margin: 0;
   padding: 10px 20px;
@@ -16,9 +16,9 @@ ul {
 
 #container {
   box-shadow: 0 0 3px rgba(0,0,0,0.1);
-  width: 360px;
-  margin: 100px auto;
-  background: #f7f7f7;
+  width: 400px;
+  margin: 400px auto;
+  color: black;
 }
 
 .completed {
@@ -28,9 +28,17 @@ ul {
 
 body {
   font-family: Roboto;
-  background: #C02425; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #C02425 , #F0CB35); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #C02425 , #F0CB35); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("todo.jpg");
+  height: auto;
+  width: auto;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  /*background: #C02425;
+  background: -webkit-linear-gradient(to left, #C02425 , #F0CB35);
+  background: linear-gradient(to left, #C02425 , #F0CB35);*/
 
 
 
@@ -40,7 +48,6 @@ li {
   background: white;
   height: 40px;
   line-height: 40px;
-  color: #666;
   box-sizing: border-box;
 }
 
